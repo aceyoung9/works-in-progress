@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Works in Progress`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://inprogress.aceyoung.online`,
     description: "sketches, doodles, incomplete work, and other junk",
   },
   plugins: [

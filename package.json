@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "A progress tracker / personal art blog",
-  "author": "Ace Young",
+  "author": "Ace Young <ace.young289@gmail.com> (https://aceyoung.xyz)",
+  "homepage": "https://inprogress.aceyoung.online",
   "keywords": [
     "gatsby",
     "blog"
@@ -14,6 +15,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "new": "node scripts/new-entry.js"
   },
   "dependencies": {
@@ -34,5 +36,8 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
