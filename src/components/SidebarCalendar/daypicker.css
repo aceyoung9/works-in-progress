@@ -1,0 +1,22 @@
+.rdp-root {
+  --rdp-disabled-opacity: 0.15;
+}
+
+.my-day_button {
+  background: var(--color-lapis);
+  color: white;
+}
+
+.my-day_button:hover {
+  outline: 2px solid var(--color-lapis);
+  transition: outline 0.1s ease-out;
+}
+
+.my-day_button:focus {
+  outline: 2px solid var(--color-pink-500);
+}
+
+.my-day_button:disabled {
+  outline: none;
+  color: transparent;
+}

@@ -1,1 +1,58 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "sans-serif";
+
+  --color-lapis: #272ad5;
+}
+
+body {
+  background-color: #ebeff3;
+  color: #343751;
+}
+
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: revert;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-6xl;
+}
+
+h2 {
+  @apply text-5xl;
+}
+
+h3 {
+  @apply text-3xl;
+}
+
+ul {
+  @apply list-disc;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+a {
+  @apply underline decoration-pink-500 hover:bg-amber-200/40;
+}
+
+a:hover {
+  transition: all 0.2s ease-out;
+}
+
+a.is-root-path {
+  @apply no-underline;
+}
